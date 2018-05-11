@@ -1,18 +1,20 @@
 s = 'azcbobobegghakl'
-x=""
-temp=s[0]
-c=0
-while c < len(s):
-    for e in range(len(s)-1):
-            if s[e] <= s[e+1]:
-                if temp < x:
-                    temp+=x
-                    c+=1
+base=s[0]
+longest=s[0]
+large=0
+
+
+for x in range (len(s)-1):
+    if s[x+1] >= s[x] :
+        base+=s[x+1]
+        if len(base) > large:
+            large= len(base)
+            longest= base
+    else:
+        base=s[x+1]
+x +=1
 
     
-            
-    
-print(temp)
-print(x)
+print ('Longest substring in alphabetical order is: ' + longest)
     
 
