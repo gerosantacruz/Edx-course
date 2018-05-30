@@ -1,0 +1,50 @@
+var defaultQuestions = [
+    {
+        question:"which one is the capital of Argentina?",
+        choiceA:"Berlin",
+        choiceB:"Buenos Aires",
+        choiceC:"Caracas",
+        choiceD:"Bogota",
+        correct:"B",
+    },
+    {
+        question:"which years born Alan turing?",
+        choiceA:"20 of agoust 1914",
+        choiceB:"15 of april 1923",
+        choiceC:"5 of december 1910",
+        choiceD:"23 de junio de 1912",
+        correct:"D",
+    },
+    {
+        question:"who paint the Sistine Chapel ceiling?",
+        choiceA:"Leonardo Da vinci",
+        choiceB:"Donnatello",
+        choiceC:"Miguel Angel",
+        choiceD:"Rafael Sanzio",
+        correct:"C",
+    },
+    {
+        question:"How many movement have the chess (Aprox)?",
+        choiceA:"10*25",
+        choiceB:"10*123",
+        choiceC:"10*12",
+        choiceD:"10*98",
+        correct:"B",
+    },
+    {
+        question:"what was the purpose of proyect Manhattan?",
+        choiceA:"the internet",
+        choiceB:"supersonic plane",
+        choiceC:"atomic bomb",
+        choiceD:"missils",
+        correct:"C",
+    },
+    {
+        question: "Where are the three smallest bones in the human body?",
+        choiceA: "middle ear",
+        choiceB: "nose",
+        choiceC: "toes",
+        choiceD: "eyes",
+        correct: "A"
+    },
+] 

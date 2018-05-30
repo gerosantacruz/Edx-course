@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Vacation planner</title>
+        <link rel="stylesheet" type="text/css" href="vacationPlanner.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1 id="greeting">Welcome to the Argentina vacation planner</h1>
+        </header>
+        <section>
+            <h2>trip timing</h2>
+            <p id="timingError" class="error"></p>
+            <label for="days">How many days will you travelling?</label>
+            <input id="days" type="text" placeholder="Enter a number">
+            <button id="enterDays">Enter</button>
+
+            <p id="daysMessage"></p>
+            <p id="hoursMessage"></p>
+            <p id="minuteMessage"></p>
+            <p id="secondMessage"></p>
+            <button hidden class="next" id="timingNext">Next</button>
+        </section>
+
+        <section id="budgetSection" hidden>
+            <h2>Budget</h2>
+            <p>The currency in Argentina is <strong>Peso Argentino (ARP))</strong></p>
+            <p>Exchange rate: 1 USD = 25 ARP</p>
+            <p id="budgetError" class="error"></p>
+            <label for="dailyBudget" >Enter your total trip budget in USD:</label>
+            <input id="tripBudget" type="text" placeholder="Enter a number">
+            <input type="button" value="enter" id="enterBudget">
+
+            <p id="tripExchangeMsg"></p>
+            <p id="dailyExchangeMSg"></p>
+            <p id="exchange10Msg"></p>
+            <p id="exchange500Msg"></p>
+            <button hidden id="budgetNext" class="next">Next</button>
+        </section>
+        <script type="text/javascript" src="vacationPlanner.js"></script>
+    </body>
+</html>
